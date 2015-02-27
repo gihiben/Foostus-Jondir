@@ -5,11 +5,29 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sprites name="sprites">
+    <sprites name="System">
+      <sprite>sprites\spr_Collision</sprite>
+    </sprites>
+    <sprites name="Foostus">
+      <sprite>sprites\spr_Foostus_Idle</sprite>
+      <sprite>sprites\spr_Foostus_Walking</sprite>
+    </sprites>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\bck_main</background>
+    <background>background\bck_white</background>
+  </backgrounds>
   <paths name="paths"/>
-  <objects name="objects"/>
-  <rooms name="rooms"/>
+  <objects name="objects">
+    <objects name="System">
+      <object>objects\obj_Collision</object>
+    </objects>
+    <object>objects\obj_Foostus</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rm_collisionTest</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
