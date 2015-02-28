@@ -8,6 +8,8 @@
   <sprites name="sprites">
     <sprites name="System">
       <sprite>sprites\spr_Collision</sprite>
+      <sprite>sprites\spr_warp</sprite>
+      <sprite>sprites\spr_player_start</sprite>
     </sprites>
     <sprites name="Foostus">
       <sprite>sprites\spr_Foostus_Idle</sprite>
@@ -16,18 +18,28 @@
     </sprites>
   </sprites>
   <backgrounds name="background">
-    <background>background\bck_main</background>
+    <background>background\bck_watchtower</background>
     <background>background\bck_white</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
+    <object>objects\obj_Foostus</object>
     <objects name="System">
       <object>objects\obj_Collision</object>
+      <object>objects\obj_warp_base</object>
+      <object>objects\obj_player_start</object>
+      <objects name="Controllers">
+        <object>objects\obj_splashController</object>
+      </objects>
     </objects>
-    <object>objects\obj_Foostus</object>
+    <objects name="FX">
+      <object>objects\obj_fade</object>
+    </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_splash</room>
     <room>rooms\rm_collisionTest</room>
+    <room>rooms\rm_LevelTwo</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
