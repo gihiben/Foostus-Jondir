@@ -11,6 +11,7 @@
     </sprites>
     <sprites name="Foostus">
       <sprite>sprites\spr_Foostus_Idle</sprite>
+      <sprite>sprites\spr_Foostus_Jump</sprite>
       <sprite>sprites\spr_Foostus_Walking</sprite>
     </sprites>
   </sprites>
