@@ -102,11 +102,13 @@ if (place_meeting(x, y+1, obj_Collision))
 {
     if (move != 0) 
     {
-        sprite_index = spr_Foostus_Walking;       
+        sprite_index = spr_Foostus_Walking;    
+        image_speed = 0.4;   
     }
     else
     {
         sprite_index = spr_Foostus_Idle;   
+        image_speed = 0.1;
     }
 }
 else
