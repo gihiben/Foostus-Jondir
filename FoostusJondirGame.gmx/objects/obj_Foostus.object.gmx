@@ -33,6 +33,7 @@ hsp = 0;
 vsp = 0;
 jumpSpeed = 6;
 moveSpeed = 4;
+isAttacking = 0;
 </string>
           </argument>
         </arguments>
@@ -61,6 +62,7 @@ moveSpeed = 4;
 key_right = keyboard_check(vk_right);
 key_left = -keyboard_check(vk_left);
 key_jump = keyboard_check_pressed(vk_space);
+key_attack = keyboard_check_pressed(vk_alt);
 
 //React to input
 move = key_left + key_right;
@@ -98,6 +100,10 @@ y += vsp;
 
 //Animation
 if (move != 0) image_xscale = move*2;
+
+if (key_attack == 1) &amp;&amp; (isAttacking == 0) isAttacking = 1;
+if (isAttacking == 0) 
+{
 if (place_meeting(x, y+1, obj_Collision))
 {
     if (move != 0) 
@@ -117,6 +123,13 @@ else
     {
         sprite_index = spr_Foostus_Jump; 
     }
+}
+}
+else //Attack
+{
+    sprite_index = spr_Foostus_Attack;
+    image_speed = 0.3;
+    if (image_index &gt; 4) isAttacking = 0;
 }
 </string>
           </argument>
