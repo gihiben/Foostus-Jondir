@@ -21,6 +21,7 @@
   <backgrounds name="background">
     <background>background\bck_watchtower</background>
     <background>background\bck_white</background>
+    <background>background\bck_navy</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
@@ -41,6 +42,7 @@
     <room>rooms\rm_splash</room>
     <room>rooms\rm_collisionTest</room>
     <room>rooms\rm_LevelTwo</room>
+    <room>rooms\room3</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

@@ -27,12 +27,12 @@
             <kind>1</kind>
             <string>///Initialize Variables
 
-image_speed = 0.1;
+image_speed = 0.05;
 grav = 0.4;
 hsp = 0;
 vsp = 0;
-jumpSpeed = 6;
-moveSpeed = 4;
+jumpSpeed = 7;
+moveSpeed = 3;
 isAttacking = 0;
 </string>
           </argument>
@@ -109,12 +109,12 @@ if (place_meeting(x, y+1, obj_Collision))
     if (move != 0) 
     {
         sprite_index = spr_Foostus_Walking;    
-        image_speed = 0.4;   
+        image_speed = 0.3;   
     }
     else
     {
         sprite_index = spr_Foostus_Idle;   
-        image_speed = 0.1;
+        image_speed = 0.075;
     }
 }
 else
@@ -128,8 +128,8 @@ else
 else //Attack
 {
     sprite_index = spr_Foostus_Attack;
-    image_speed = 0.3;
-    if (image_index &gt; 4) isAttacking = 0;
+    image_speed = 0.2;
+    if (image_index &gt; 6) isAttacking = 0;
 }
 </string>
           </argument>
