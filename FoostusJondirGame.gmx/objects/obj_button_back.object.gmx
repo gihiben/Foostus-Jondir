@@ -55,7 +55,7 @@ draw_set_halign(fa_left);
 
 if (mouse_check_button_pressed(mb_left))
 {
-    if (mouse_x &gt; 50) &amp;&amp; (mouse_x &lt; 105) &amp;&amp; (mouse_y &gt; 400) &amp;&amp; (mouse_y &lt; 430)
+    if (mouse_x &gt; 50) &amp;&amp; (mouse_x &lt; 110) &amp;&amp; (mouse_y &gt; 400) &amp;&amp; (mouse_y &lt; 430)
     {
         room_goto(rm_menu);
     }
