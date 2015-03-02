@@ -24,6 +24,10 @@
       </sprites>
       <sprites name="Gewp">
         <sprite>sprites\spr_gewp_idle</sprite>
+        <sprite>sprites\spr_gewp_walk</sprite>
+      </sprites>
+      <sprites name="Cracktus">
+        <sprite>sprites\cracktus</sprite>
       </sprites>
     </sprites>
   </sprites>
