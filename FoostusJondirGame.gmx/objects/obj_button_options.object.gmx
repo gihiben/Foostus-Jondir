@@ -55,10 +55,9 @@ draw_set_halign(fa_left);
 
 if (mouse_check_button_pressed(mb_left))
 {
-    if (mouse_x &gt; 50) &amp;&amp; (mouse_x &lt; 180) &amp;&amp; (mouse_y &gt; 300) &amp;&amp; (mouse_y &lt; 330)
+    if (mouse_x &gt; 50) &amp;&amp; (mouse_x &lt; 160) &amp;&amp; (mouse_y &gt; 350) &amp;&amp; (mouse_y &lt; 380)
     {
-        with (obj_Foostus) instance_destroy();
-        room_goto_next();
+        room_goto(rm_options);
     }
 }
 </string>
@@ -83,7 +82,7 @@ if (mouse_check_button_pressed(mb_left))
         <arguments>
           <argument>
             <kind>2</kind>
-            <string>Continue</string>
+            <string>Options</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -91,7 +90,7 @@ if (mouse_check_button_pressed(mb_left))
           </argument>
           <argument>
             <kind>0</kind>
-            <string>300</string>
+            <string>350</string>
           </argument>
         </arguments>
       </action>

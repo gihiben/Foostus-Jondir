@@ -35,6 +35,8 @@
     <background>background\bck_watchtower</background>
     <background>background\bck_white</background>
     <background>background\bck_navy</background>
+    <background>background\bck_GM</background>
+    <background>background\bck_menu</background>
   </backgrounds>
   <paths name="paths"/>
   <fonts name="fonts">
@@ -53,6 +55,8 @@
         <object>objects\spr_button_exit</object>
         <object>objects\obj_button_new</object>
         <object>objects\obj_button_continue</object>
+        <object>objects\obj_button_options</object>
+        <object>objects\obj_button_back</object>
       </objects>
     </objects>
     <objects name="FX">
@@ -61,10 +65,11 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_splash</room>
+    <room>rooms\rm_splash2</room>
+    <room>rooms\rm_menu</room>
     <room>rooms\rm_collisionTest</room>
     <room>rooms\rm_LevelTwo</room>
-    <room>rooms\room3</room>
-    <room>rooms\rm_menu</room>
+    <room>rooms\rm_options</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
