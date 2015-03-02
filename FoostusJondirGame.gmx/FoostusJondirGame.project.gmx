@@ -33,6 +33,9 @@
     <background>background\bck_navy</background>
   </backgrounds>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\fnt_menu</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_Foostus</object>
     <objects name="System">
@@ -43,7 +46,9 @@
         <object>objects\obj_splashController</object>
       </objects>
       <objects name="Menu">
-        <object>objects\obj_button_start</object>
+        <object>objects\spr_button_exit</object>
+        <object>objects\obj_button_new</object>
+        <object>objects\obj_button_continue</object>
       </objects>
     </objects>
     <objects name="FX">
