@@ -42,6 +42,9 @@
       <objects name="Controllers">
         <object>objects\obj_splashController</object>
       </objects>
+      <objects name="Menu">
+        <object>objects\obj_button_start</object>
+      </objects>
     </objects>
     <objects name="FX">
       <object>objects\obj_fade</object>
@@ -52,6 +55,7 @@
     <room>rooms\rm_collisionTest</room>
     <room>rooms\rm_LevelTwo</room>
     <room>rooms\room3</room>
+    <room>rooms\rm_menu</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
