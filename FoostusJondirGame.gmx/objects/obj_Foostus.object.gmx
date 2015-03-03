@@ -128,8 +128,8 @@ else
 else //Attack
 {
     sprite_index = spr_Foostus_Attack;
-    image_speed = 0.2;
-    if (image_index &gt; 6) isAttacking = 0;
+    image_speed = 0.25;
+    if (image_index &gt; 8) isAttacking = 0;
 }
 </string>
           </argument>
