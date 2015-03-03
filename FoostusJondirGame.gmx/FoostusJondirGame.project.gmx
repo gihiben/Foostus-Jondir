@@ -10,6 +10,7 @@
       <sprite>sprites\spr_Collision</sprite>
       <sprite>sprites\spr_warp</sprite>
       <sprite>sprites\spr_player_start</sprite>
+      <sprite>sprites\spr_select</sprite>
     </sprites>
     <sprites name="Foostus">
       <sprite>sprites\spr_Foostus_Idle</sprite>
@@ -40,6 +41,11 @@
     <background>background\bck_menu</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_saveGame.gml</script>
+    <script>scripts\scr_loadGame.gml</script>
+    <script>scripts\scr_menu.gml</script>
+  </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_menu</font>
   </fonts>
@@ -51,6 +57,7 @@
       <object>objects\obj_player_start</object>
       <objects name="Controllers">
         <object>objects\obj_splashController</object>
+        <object>objects\obj_menuController</object>
       </objects>
       <objects name="Menu">
         <object>objects\spr_button_exit</object>

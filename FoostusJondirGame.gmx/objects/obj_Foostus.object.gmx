@@ -99,7 +99,7 @@ y += vsp;
 
 
 //Animation
-if (move != 0) image_xscale = move*2;
+if (move != 0) image_xscale = move;
 
 if (key_attack == 1) &amp;&amp; (isAttacking == 0) isAttacking = 1;
 if (isAttacking == 0) 
