@@ -60,10 +60,6 @@
         <object>objects\obj_menuController</object>
       </objects>
       <objects name="Menu">
-        <object>objects\spr_button_exit</object>
-        <object>objects\obj_button_new</object>
-        <object>objects\obj_button_continue</object>
-        <object>objects\obj_button_options</object>
         <object>objects\obj_button_back</object>
       </objects>
     </objects>
@@ -73,8 +69,6 @@
     <object>objects\obj_wall</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_splash</room>
-    <room>rooms\rm_splash2</room>
     <room>rooms\rm_menu</room>
     <room>rooms\rm_collisionTest</room>
     <room>rooms\rm_LevelTwo</room>

@@ -11,6 +11,7 @@ if (file_exists("Save.sav")) //check for file
     
     //load in saved variables
     room_goto(loadedRoom);
+    if(!instance_exists(obj_Foostus)) instance_create(0, 0, obj_Foostus);
 }
 else
 {
