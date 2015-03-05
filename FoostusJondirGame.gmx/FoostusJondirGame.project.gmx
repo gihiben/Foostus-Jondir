@@ -33,6 +33,7 @@
     </sprites>
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_tile</sprite>
+    <sprite>sprites\sprite15</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bck_watchtower</background>
@@ -72,7 +73,6 @@
     <object>objects\obj_tile</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room4</room>
     <room>rooms\rm_menu</room>
     <room>rooms\rm_collisionTest</room>
     <room>rooms\rm_LevelTwo</room>

@@ -12,7 +12,7 @@ w_down      = place_meeting(x,y+iw,object_index);
 w_upleft    = place_meeting(x-iw,y-iw,object_index);
 w_downleft  = place_meeting(x-iw,y+iw,object_index);
 w_upright   = place_meeting(x+iw,y-iw,object_index);
-y_downright = place_meeting(x+iw,y+iw,object_index);
+w_downright = place_meeting(x+iw,y+iw,object_index);
 
 if (x-iw < 0            ) {w_left = 1; w_upleft = 1; w_downleft = 1;}
 if (x+iw > room_width   ) {w_right = 1; w_upright = 1; w_downright = 1;}
@@ -47,7 +47,7 @@ if(w_up)
       }
       else if(w_downleft)
       {
-       tile=3
+       tile=37
        if(w_upleft)tile=41
       }
       else if(w_upleft)tile=36
