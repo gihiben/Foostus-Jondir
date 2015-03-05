@@ -31,9 +31,11 @@ image_speed = 0.05;
 grav = 0.4;
 hsp = 0;
 vsp = 0;
-jumpSpeed = 7;
+jumpSpeed = 10;
 moveSpeed = 3;
 isAttacking = 0;
+image_xscale = 2;
+image_yscale = 2;
 </string>
           </argument>
         </arguments>
@@ -99,7 +101,7 @@ y += vsp;
 
 
 //Animation
-if (move != 0) image_xscale = move;
+if (move != 0) image_xscale = move*2;
 
 if (key_attack == 1) &amp;&amp; (isAttacking == 0) isAttacking = 1;
 if (isAttacking == 0) 
