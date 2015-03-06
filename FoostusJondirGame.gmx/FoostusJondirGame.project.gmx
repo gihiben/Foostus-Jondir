@@ -12,12 +12,6 @@
       <sprite>sprites\spr_player_start</sprite>
       <sprite>sprites\spr_select</sprite>
     </sprites>
-    <sprites name="Foostus">
-      <sprite>sprites\spr_Foostus_Idle</sprite>
-      <sprite>sprites\spr_Foostus_Jump</sprite>
-      <sprite>sprites\spr_Foostus_Walking</sprite>
-      <sprite>sprites\spr_Foostus_Attack</sprite>
-    </sprites>
     <sprites name="Enemies">
       <sprites name="Murple">
         <sprite>sprites\spr_murple_idle</sprite>
@@ -33,6 +27,17 @@
     </sprites>
     <sprites name="Tiles">
       <sprite>sprites\spr_tile_brick</sprite>
+    </sprites>
+    <sprites name="Heroes">
+      <sprites name="Foostus">
+        <sprite>sprites\spr_Foostus_Idle</sprite>
+        <sprite>sprites\spr_Foostus_Jump</sprite>
+        <sprite>sprites\spr_Foostus_Walking</sprite>
+        <sprite>sprites\spr_Foostus_Attack</sprite>
+      </sprites>
+      <sprites name="Jondir">
+        <sprite>sprites\spr_Jondir_Idle</sprite>
+      </sprites>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -73,6 +78,8 @@
     </objects>
     <objects name="Player">
       <object>objects\obj_Foostus</object>
+      <object>objects\spr_JondirTest</object>
+      <object>objects\obj_Jondir</object>
     </objects>
     <objects name="Enemies">
       <object>objects\obj_gewp</object>

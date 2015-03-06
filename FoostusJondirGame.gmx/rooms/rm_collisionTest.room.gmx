@@ -26,9 +26,9 @@
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>4</page>
-    <xoffset>68</xoffset>
-    <yoffset>-209</yoffset>
+    <page>0</page>
+    <xoffset>-16</xoffset>
+    <yoffset>321</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="bck_navy" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -217,7 +217,7 @@
     <instance objName="obj_tile_brick" x="448" y="320" name="inst_E5933251" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tile_brick" x="512" y="320" name="inst_BD8A4BDF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tile_brick" x="0" y="896" name="inst_93445B77" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Collision" x="0" y="896" name="inst_3BE203AA" locked="0" code="" scaleX="13" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spr_JondirTest" x="160" y="832" name="inst_7D838354" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_Collision" x="576" y="640" name="inst_82852B41" locked="0" code="" scaleX="21" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Collision" x="768" y="256" name="inst_C34355F2" locked="0" code="" scaleX="18" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_Collision" x="192" y="256" name="inst_1389E9D7" locked="0" code="" scaleX="14" scaleY="2" colour="4294967295" rotation="0"/>
@@ -235,6 +235,8 @@
     <instance objName="obj_Collision" x="1216" y="576" name="inst_E6ECD38F" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_tile_brick" x="1792" y="384" name="inst_786A0F01" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tile_brick" x="1856" y="384" name="inst_35A5D9C3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Foostus" x="96" y="832" name="inst_234E3CE7" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Collision" x="0" y="896" name="inst_68B48C43" locked="0" code="" scaleX="13" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
