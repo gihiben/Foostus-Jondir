@@ -115,7 +115,7 @@ if (place_meeting(x, y+1, obj_Collision))
     }
     else
     {
-        //sprite_index = spr_Foostus_Idle;   
+        sprite_index = spr_Jondir_Idle;   
         image_speed = 0.075;
     }
 }
@@ -129,7 +129,7 @@ else
 }
 else //Attack
 {
-    //sprite_index = spr_Foostus_Attack;
+    sprite_index = spr_Jondir_Attack;
     image_speed = 0.25;
     if (image_index &gt; 8) isAttacking = 0;
 }

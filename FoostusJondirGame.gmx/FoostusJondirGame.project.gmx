@@ -37,6 +37,7 @@
       </sprites>
       <sprites name="Jondir">
         <sprite>sprites\spr_Jondir_Idle</sprite>
+        <sprite>sprites\spr_Jondir_Attack</sprite>
       </sprites>
     </sprites>
   </sprites>
@@ -78,7 +79,6 @@
     </objects>
     <objects name="Player">
       <object>objects\obj_Foostus</object>
-      <object>objects\spr_JondirTest</object>
       <object>objects\obj_Jondir</object>
     </objects>
     <objects name="Enemies">
@@ -88,8 +88,8 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_menu</room>
     <room>rooms\rm_collisionTest</room>
+    <room>rooms\rm_menu</room>
     <room>rooms\rm_LevelTwo</room>
     <room>rooms\rm_options</room>
   </rooms>
