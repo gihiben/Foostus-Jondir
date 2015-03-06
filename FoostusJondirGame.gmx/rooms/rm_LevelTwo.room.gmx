@@ -16,8 +16,8 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1382</w>
-    <h>744</h>
+    <w>1016</w>
+    <h>600</h>
     <showGrid>-1</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-54</xoffset>
-    <yoffset>-84</yoffset>
+    <xoffset>-86</xoffset>
+    <yoffset>201</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="bck_navy" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -51,18 +51,18 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_tile" x="0" y="544" name="inst_FE42DF9E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_tile" x="64" y="544" name="inst_2385BFCB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_tile" x="128" y="544" name="inst_FBA71012" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_tile" x="1856" y="544" name="inst_CA8B6E1E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_tile" x="1472" y="544" name="inst_5DE53AEA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_tile" x="320" y="544" name="inst_FE2A7B50" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_tile" x="1280" y="544" name="inst_23B0CCFF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_tile" x="1664" y="544" name="inst_71F449EE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_tile" x="512" y="544" name="inst_2632F517" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_tile" x="896" y="544" name="inst_F721C1E0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_tile" x="1088" y="544" name="inst_69CB9376" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_tile" x="704" y="544" name="inst_3E8C59E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_tile_brick" x="0" y="544" name="inst_FE42DF9E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_tile_brick" x="64" y="544" name="inst_2385BFCB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_tile_brick" x="128" y="544" name="inst_FBA71012" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_tile_brick" x="1856" y="544" name="inst_CA8B6E1E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_tile_brick" x="1472" y="544" name="inst_5DE53AEA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_tile_brick" x="320" y="544" name="inst_FE2A7B50" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_tile_brick" x="1280" y="544" name="inst_23B0CCFF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_tile_brick" x="1664" y="544" name="inst_71F449EE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_tile_brick" x="512" y="544" name="inst_2632F517" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_tile_brick" x="896" y="544" name="inst_F721C1E0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_tile_brick" x="1088" y="544" name="inst_69CB9376" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_tile_brick" x="704" y="544" name="inst_3E8C59E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Collision" x="0" y="544" name="inst_6BDD200F" locked="0" code="" scaleX="6" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_Collision" x="320" y="544" name="inst_0CDC7944" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_Collision" x="704" y="544" name="inst_427252BD" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
@@ -73,7 +73,7 @@
     <instance objName="obj_Collision" x="1472" y="544" name="inst_65F4126C" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_Collision" x="1664" y="544" name="inst_8514F0E2" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_Collision" x="1856" y="544" name="inst_A4269A21" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="obj_warp_base" x="0" y="416" name="inst_A7F8894C" locked="0" code="target_x = 1856;&#xA;target_y = 270;&#xA;target_r = rm_collisionTest;&#xA;" scaleX="1" scaleY="4" colour="4294967295" rotation="0"/>
+    <instance objName="obj_warp_base" x="-32" y="416" name="inst_A7F8894C" locked="0" code="target_x = 1856;&#xA;target_y = 270;&#xA;target_r = rm_collisionTest;&#xA;" scaleX="1" scaleY="4" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

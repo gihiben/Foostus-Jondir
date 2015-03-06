@@ -31,8 +31,9 @@
         <sprite>sprites\cracktus</sprite>
       </sprites>
     </sprites>
-    <sprite>sprites\spr_wall</sprite>
-    <sprite>sprites\spr_tile</sprite>
+    <sprites name="Tiles">
+      <sprite>sprites\spr_tile_brick</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bck_watchtower</background>
@@ -52,7 +53,6 @@
     <font>fonts\fnt_menu</font>
   </fonts>
   <objects name="objects">
-    <object>objects\obj_Foostus</object>
     <objects name="System">
       <object>objects\obj_Collision</object>
       <object>objects\obj_warp_base</object>
@@ -68,8 +68,17 @@
     <objects name="FX">
       <object>objects\obj_fade</object>
     </objects>
-    <object>objects\obj_wall</object>
-    <object>objects\obj_tile</object>
+    <objects name="Tiles">
+      <object>objects\obj_tile_brick</object>
+    </objects>
+    <objects name="Player">
+      <object>objects\obj_Foostus</object>
+    </objects>
+    <objects name="Enemies">
+      <object>objects\obj_gewp</object>
+      <object>objects\obj_murple</object>
+      <object>objects\obj_cracktus</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
