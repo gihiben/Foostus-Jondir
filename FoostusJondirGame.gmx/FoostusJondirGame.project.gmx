@@ -38,6 +38,7 @@
       <sprites name="Jondir">
         <sprite>sprites\spr_Jondir_Idle</sprite>
         <sprite>sprites\spr_Jondir_Attack</sprite>
+        <sprite>sprites\spr_blast</sprite>
       </sprites>
     </sprites>
   </sprites>
@@ -80,6 +81,7 @@
     <objects name="Player">
       <object>objects\obj_Foostus</object>
       <object>objects\obj_Jondir</object>
+      <object>objects\obj_blast</object>
     </objects>
     <objects name="Enemies">
       <object>objects\obj_gewp</object>
