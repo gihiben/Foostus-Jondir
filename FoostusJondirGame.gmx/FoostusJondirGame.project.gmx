@@ -16,6 +16,7 @@
       <sprites name="Murple">
         <sprite>sprites\spr_murple_idle</sprite>
         <sprite>sprites\spr_murple_walk</sprite>
+        <sprite>sprites\spr_murple_attack</sprite>
       </sprites>
       <sprites name="Gewp">
         <sprite>sprites\spr_gewp_idle</sprite>
@@ -37,6 +38,7 @@
       </sprites>
       <sprites name="Jondir">
         <sprite>sprites\spr_Jondir_Idle</sprite>
+        <sprite>sprites\spr_Jondir_Walk</sprite>
         <sprite>sprites\spr_Jondir_Attack</sprite>
         <sprite>sprites\spr_blast</sprite>
       </sprites>
