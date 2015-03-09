@@ -28,6 +28,7 @@
     </sprites>
     <sprites name="Tiles">
       <sprite>sprites\spr_tile_brick</sprite>
+      <sprite>sprites\spr_tile_grass</sprite>
     </sprites>
     <sprites name="Heroes">
       <sprites name="Foostus">
@@ -79,6 +80,7 @@
     </objects>
     <objects name="Tiles">
       <object>objects\obj_tile_brick</object>
+      <object>objects\obj_tile_grass</object>
     </objects>
     <objects name="Player">
       <object>objects\obj_Foostus</object>
@@ -92,6 +94,7 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room4</room>
     <room>rooms\rm_collisionTest</room>
     <room>rooms\rm_menu</room>
     <room>rooms\rm_LevelTwo</room>
