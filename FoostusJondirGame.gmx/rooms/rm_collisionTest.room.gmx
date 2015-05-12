@@ -11,7 +11,7 @@
   <colour>12632256</colour>
   <showcolour>0</showcolour>
   <code>scr_saveGame();</code>
-  <enableViews>-1</enableViews>
+  <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>4</page>
-    <xoffset>-16</xoffset>
-    <yoffset>321</yoffset>
+    <xoffset>92</xoffset>
+    <yoffset>83</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="bck_navy" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -218,7 +218,6 @@
     <instance objName="obj_tile_brick" x="512" y="320" name="inst_BD8A4BDF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tile_brick" x="0" y="896" name="inst_93445B77" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Jondir" x="160" y="832" name="inst_7D838354" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Collision" x="576" y="640" name="inst_82852B41" locked="0" code="" scaleX="21" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Collision" x="768" y="256" name="inst_C34355F2" locked="0" code="" scaleX="18" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_Collision" x="192" y="256" name="inst_1389E9D7" locked="0" code="" scaleX="14" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_Collision" x="1408" y="384" name="inst_C519C5B6" locked="0" code="" scaleX="12" scaleY="2" colour="4294967295" rotation="0"/>
@@ -236,6 +235,11 @@
     <instance objName="obj_tile_brick" x="1792" y="384" name="inst_786A0F01" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tile_brick" x="1856" y="384" name="inst_35A5D9C3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Collision" x="0" y="896" name="inst_68B48C43" locked="0" code="" scaleX="13" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_gewp" x="1248" y="160" name="inst_BFD60E18" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="obj_gewp" x="1120" y="544" name="inst_10A4BE67" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="obj_gewp" x="256" y="160" name="inst_25573223" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Collision" x="576" y="640" name="inst_5D2F55E6" locked="0" code="" scaleX="6" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Collision" x="960" y="640" name="inst_A9B2E31A" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

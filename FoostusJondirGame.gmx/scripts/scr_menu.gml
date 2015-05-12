@@ -6,7 +6,7 @@ switch(mpos)
     {
         with(obj_Foostus) instance_destroy();
         room_goto_next();
-        instance_create(64, 768, obj_Foostus);
+        //instance_create(64, 768, obj_Foostus);
         break;
     }
 

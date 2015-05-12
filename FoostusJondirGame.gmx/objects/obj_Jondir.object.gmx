@@ -137,13 +137,13 @@ if (place_meeting(x, y+1, obj_Collision))
 {
     if (move != 0) 
     {
-        //sprite_index = spr_Foostus_Walking;    
-        image_speed = 0.3;   
+        sprite_index = spr_Jondir_Walk;    
+        image_speed = 0.15;   
     }
     else
     {
         sprite_index = spr_Jondir_Idle;   
-        image_speed = 0.075;
+        image_speed = 0.05;
     }
 }
 else
