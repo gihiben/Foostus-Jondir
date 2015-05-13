@@ -60,18 +60,19 @@ ledge = 1;
 hsp = dir*movespeed;
 vsp += grav;
 
+
 //Collision Checking X-Axis
-if (place_meeting(x+hsp, y, obj_Collision))
+if (place_meeting(x+sign(hsp), y, obj_Collision))
 {
     //while(!place_meeting(x+sign(hsp), y, obj_Collision))
     //{
      //   x += sign(hsp);
     //}
-//    hsp = 0;
-    
+    hsp = 0; 
+    x += sprite_width;
     dir *= -1;
     hsp = dir*movespeed;
-    x += hsp+5;   
+    x += hsp;   
 }
 else
 {
