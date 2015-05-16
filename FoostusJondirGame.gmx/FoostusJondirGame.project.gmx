@@ -51,6 +51,7 @@
     <background>background\bck_navy</background>
     <background>background\bck_GM</background>
     <background>background\bck_menu</background>
+    <background>background\Trees</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -70,6 +71,7 @@
       <objects name="Controllers">
         <object>objects\obj_splashController</object>
         <object>objects\obj_menuController</object>
+        <object>objects\obj_stats</object>
       </objects>
       <objects name="Menu">
         <object>objects\obj_button_back</object>
@@ -86,6 +88,7 @@
       <object>objects\obj_Foostus</object>
       <object>objects\obj_Jondir</object>
       <object>objects\obj_blast</object>
+      <object>objects\obj_attack</object>
     </objects>
     <objects name="Enemies">
       <object>objects\obj_gewp</object>

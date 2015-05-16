@@ -129,6 +129,14 @@ else
 }
 else //Attack
 {
+    if(image_xscale == -2)
+    {
+        instance_create(x+(45*image_xscale/2), y, obj_attack);
+    }
+    else
+    {
+        instance_create(x+15+image_xscale/2, y, obj_attack);
+    } 
     sprite_index = spr_Foostus_Attack;
     image_speed = 0.25;
     if (image_index &gt; 8) isAttacking = 0;

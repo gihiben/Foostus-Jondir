@@ -28,7 +28,7 @@
             <string>///Initialize
 
 dir = -1;
-movespeed = 2;
+movespeed = 1.5;
 grav = 0.2;
 hsp = 0;
 vsp = 0;
@@ -64,15 +64,19 @@ vsp += grav;
 //Collision Checking X-Axis
 if (place_meeting(x+sign(hsp), y, obj_Collision))
 {
-    //while(!place_meeting(x+sign(hsp), y, obj_Collision))
-    //{
-     //   x += sign(hsp);
-    //}
     hsp = 0; 
-    x += sprite_width;
+    x += sprite_width-45*dir*-1;
     dir *= -1;
     hsp = dir*movespeed;
     x += hsp;   
+}
+else if (ledge) &amp;&amp; !position_meeting(x+((30+sprite_width/2)*dir), y+(sprite_height/2)+8, obj_Collision)
+{
+    hsp = 0; 
+    x += sprite_width-55*dir*-1;
+    dir *= -1;
+    //hsp = dir*movespeed;
+    //x += hsp;
 }
 else
 {
@@ -89,10 +93,7 @@ if (place_meeting(x, y+vsp, obj_Collision))
     }
     vsp = 0;
   
-    //if (ledge) &amp;&amp; !position_meeting(x+(sprite_width/2)*dir*-1, y+(sprite_height/2)+3, obj_tile_brick)
-    //{
-     //   dir *= -1;
-    //}
+
         
     
 }
@@ -103,12 +104,28 @@ y += vsp;
 //Animation
 image_xscale = -2*dir;
 sprite_index = spr_gewp_walk;    
-image_speed = 0.3;   
+image_speed = 0.15;   
 
 
 </string>
           </argument>
         </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_attack">
+      <action>
+        <libid>1</libid>
+        <id>203</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_kill_object</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
       </action>
     </event>
     <event eventtype="4" ename="obj_blast">
